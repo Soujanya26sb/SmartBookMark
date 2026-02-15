@@ -76,8 +76,8 @@ export default function BookmarkList({ userId }: { userId: string }) {
         <svg className="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
         </svg>
-        <h3 className="mt-2 text-sm font-medium text-gray-900">No bookmarks yet</h3>
-        <p className="mt-1 text-sm text-gray-500">Get started by adding a new bookmark above.</p>
+        <h3 className="mt-2 text-sm font-medium text-black">No bookmarks yet</h3>
+        <p className="mt-1 text-sm text-gray-600">Get started by adding a new bookmark above.</p>
       </div>
     );
   }
@@ -97,10 +97,10 @@ export default function BookmarkList({ userId }: { userId: string }) {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors truncate">
+                <h3 className="font-semibold text-black group-hover:text-blue-600 transition-colors truncate">
                   {b.title}
                 </h3>
-                <p className="text-sm text-gray-500 mt-1 truncate">{b.url}</p>
+                <p className="text-sm text-black mt-1 truncate">{b.url}</p>
               </a>
             </div>
             <button

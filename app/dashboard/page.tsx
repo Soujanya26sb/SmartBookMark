@@ -31,8 +31,8 @@ export default async function Dashboard() {
         <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg p-6 mb-8">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">My Bookmarks</h1>
-              <p className="text-gray-600 mt-1">Manage your favorite links</p>
+              <h1 className="text-3xl font-bold text-black">My Bookmarks</h1>
+              <p className="text-gray-700 mt-1">Manage your favorite links</p>
             </div>
             <form action={logout}>
               <button className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 shadow-sm">

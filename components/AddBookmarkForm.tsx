@@ -31,17 +31,17 @@ export default function AddBookmarkForm({ userId, onAdd }: { userId: string; onA
 
   return (
     <form onSubmit={add} className="bg-white rounded-lg shadow-md p-6 mb-8">
-      <h2 className="text-lg font-semibold mb-4 text-gray-800">Add New Bookmark</h2>
+      <h2 className="text-lg font-semibold mb-4 text-black">Add New Bookmark</h2>
       <div className="flex flex-col sm:flex-row gap-3">
         <input
-          className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-black placeholder-gray-500"
           placeholder="Enter title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           required
         />
         <input
-          className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-black placeholder-gray-500"
           placeholder="Enter URL"
           type="url"
           value={url}
